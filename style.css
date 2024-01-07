@@ -171,6 +171,12 @@ ul li p {
   margin: 0 14px;
 }
 
+ul li:hover .arrow {
+  background-image: url(./img/arrow-right-light.svg);
+  z-index: 3;
+  stroke: white;
+}
+
 li:hover, li:focus, li:active {
   background: #5932ea;
 }
@@ -316,5 +322,6 @@ td {
   }
   .main__title {
     text-align: center;
+     margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
