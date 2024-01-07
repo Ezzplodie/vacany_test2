@@ -171,22 +171,18 @@ ul li p {
   margin: 0 14px;
 }
 
-ul li:hover {
-  border-radius: 8px;
+li:hover, li:focus, li:active {
   background: #5932ea;
 }
-ul li:hover p {
+li:hover p, li:focus p, li:active p {
   color: #ffffff;
 }
-ul li:hover svg path {
+li:hover svg path, li:focus svg path, li:active svg path {
   stroke: white;
 }
-ul li:focus .arrow {
-  background-image: url(../img/arrow-right-light.svg);
+li:hover .arrow, li:focus .arrow, li:active .arrow {
+  background-image: url(./img/arrow-right-light.svg);
 }
-ul li:hover {
-  border-radius: 8px;
-  background: #5932ea;
 }
 .arrow {
   background-image: url(./img/arrow-right.svg);
