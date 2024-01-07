@@ -178,7 +178,14 @@ ul li:hover p {
 ul li:hover svg path {
   stroke: white;
 }
-ul li:hover:focus .arrow {
+ul li:focus .arrow {
+  background-image: url(./img/arrow-right-light.svg);
+  border-radius: 8px;
+  background: #5932ea;
+}
+ul li:hover {
+  border-radius: 8px;
+  background: #5932ea;
   background-image: url(./img/arrow-right-light.svg);
 }
 
