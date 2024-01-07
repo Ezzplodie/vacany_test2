@@ -177,18 +177,41 @@ ul li:hover .arrow {
   stroke: white;
 }
 
-li:hover, li:focus, li:active {
-  background: #5932ea;
-}
-li:hover p, li:focus p, li:active p {
-  color: #ffffff;
-}
-li:hover svg path, li:focus svg path, li:active svg path {
+ul li:hover .arrow {
+  background-image: url(/img/arrow-right-light.svg);
+  z-index: 3;
   stroke: white;
 }
-li:hover .arrow, li:focus .arrow, li:active .arrow {
+
+li:hover,
+li:focus,
+li:active {
+  background: #5932ea;
+}
+li:hover p,
+li:focus p,
+li:active p {
+  
+  color: #ffffff;
+}
+li:hover svg path,
+li:focus svg path,
+li:active svg path {
+  stroke: white;
+}
+li:hover .arrow,
+li:focus .arrow,
+li:active .arrow {
   background-image: url(./img/arrow-right-light.svg);
 }
+
+.arrow {
+  background-image: url(./img/arrow-right.svg);
+  height: 20px;
+  width: 15px;
+  background-position: center;
+  position: absolute;
+  right: 8px;
 }
 .arrow {
   background-image: url(./img/arrow-right.svg);
