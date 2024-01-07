@@ -174,12 +174,12 @@ ul li:hover p {
 ul li:hover svg path {
   stroke: white;
 }
-ul li:hover .arrow {
-  background-image: url(../img/arrow-right-light.svg);
+ul li:hover:focus .arrow {
+  background-image: url(./img/arrow-right-light.svg);
 }
 
 .arrow {
-  background-image: url(../img/arrow-right.svg);
+  background-image: url(./img/arrow-right.svg);
   height: 20px;
   width: 15px;
   background-position: center;
