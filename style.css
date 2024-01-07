@@ -101,6 +101,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+.aside__nav {
+  z-index: 2;
+}
 .aside .aside__container .aside__logo {
   display: flex;
   align-items: center;
