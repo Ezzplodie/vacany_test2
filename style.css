@@ -126,6 +126,9 @@ body {
 .aside .aside__nav__avatar {
   display: flex;
 }
+.aside .aside__nav__avatar img {
+  border-radius: 20px;
+}
 
 .aside__nav__avatar__text {
   margin-left: 12px;
