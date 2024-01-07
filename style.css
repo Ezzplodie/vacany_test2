@@ -294,6 +294,9 @@ td {
   .all__content {
     display: block;
   }
+  .aside__container {
+    box-shadow: none;
+  }
   .aside__logo h2 {
     display: none;
   }
