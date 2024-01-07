@@ -170,7 +170,10 @@ ul li p {
   letter-spacing: -0.14px;
   margin: 0 14px;
 }
-
+ul li:hover:focus .arrow {
+  background-image: url(/img/arrow-right-light.svg);
+  z-index: 3;
+  stroke: white;
 ul li:hover .arrow {
   background-image: url(./img/arrow-right-light.svg);
   z-index: 3;
